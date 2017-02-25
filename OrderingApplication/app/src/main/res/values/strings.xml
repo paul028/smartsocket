@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ordering Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="splashdesc">Splash Activity</string>
+    <string name="dineinb">Dine in button</string>
+    <string name="takeoutb">take out button</string>
+    <string name="jollibeeicon">jollibee icon</string>
+    <string name="mealoftheday">Meal of the day button</string>
+    <string name="bestselling">Best Selling Button</string>
+    <string name="newmeals">New Meals Button</string>
+    <string name="everydaymeals">Everyday Meals button</string>
+    <string name="loginbutton">Login</string>
+    <string name="SignupButton">Create an account</string>
+    <string name="userhint">Enter Username</string>
+    <string name="passhint">Enter Password</string>
+    <string name="checkout">Checkout</string>
+    <string name="icon">Jollibee Icon</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <!-- Register Class -->
+
+    <string name="regfname">First Name</string>
+    <string name="reglname">Last Name</string>
+    <string name="reguname">Username</string>
+    <string name="regpass">Password</string>
+    <string name="regrpass">Password</string>
+    <string name="regaddress">Address</string>
+    <string name="regemail">Email</string>
+
+
+
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_view_item">ViewItem</string>
+</resources>

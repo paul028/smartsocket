@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Price -->
+
+    <TextView
+        android:id="@+id/OrderIDTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginTop="1dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/rating"
+        android:textColor="#000"
+        android:text="OrderID"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OrderIDTV"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/genre"
+        android:text="Order Date"/>
+
+    <TextView
+        android:id="@+id/ordertypeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTV"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/genre"
+        android:textSize="15dp"
+        android:text="Order Type"/>
+    <TextView
+        android:id="@+id/orderstatusTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordertypeTV"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/genre"
+        android:textSize="15dp"
+        android:text="Order Status"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mealslayout"
+    android:layout_gravity="center"
+    android:background="#FFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/breakfast"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Breakfast"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ricemeals"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Rice Meals"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/chickenmeals"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Chicken Meals"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/valuemeals"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Value Meals"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/desserts"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Desserts"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/upgrades"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="Add ons"
+            android:textColor="#FFF7F7"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
