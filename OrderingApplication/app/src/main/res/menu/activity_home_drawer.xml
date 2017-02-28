@@ -7,17 +7,9 @@
             android:checked="true"
             android:title="Home" />
         <item
-            android:id="@+id/nav_meals"
-            android:title="Meals" />
-        <item
-            android:id="@+id/nav_cart"
-            android:title="Cart" />
-        <item
-            android:id="@+id/nav_orders"
-            android:title="Orders" />
-        <item
-            android:id="@+id/nav_orderhistory"
-            android:title="Order History" />
+            android:id="@+id/nav_graph"
+            android:checked="true"
+            android:title="Power Consumption"/>
     </group>
 
     <item android:title="User Options">

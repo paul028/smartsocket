@@ -18,10 +18,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="50dp"
-            android:background="@drawable/icon"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/smartp_logo"
             android:contentDescription="Jollibee Icon" >
         </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Where you can use your device \n SMARTLY"
+            android:id="@+id/ordersTV"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
 
         <EditText
             android:id="@+id/username"

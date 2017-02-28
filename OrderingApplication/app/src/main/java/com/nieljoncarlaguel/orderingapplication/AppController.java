@@ -8,7 +8,7 @@ import com.android.volley.toolbox.Volley;
 
 public class AppController extends Application
 {
-    public static String serveraddress = "http://192.168.254.104:80";
+    public static String serveraddress = "http://169.254.111.41:80";
     private RequestQueue mRequestQueue;
     private ImageLoader mImageLoader;
 

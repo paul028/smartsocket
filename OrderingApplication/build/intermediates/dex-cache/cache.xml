@@ -1,3 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_500acceb03ea3f02e08e343552a8fe19695931f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_d9ccd5f4884f8467db55c3cb4d8667c42f8f7828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_08b39e52b08349cc69519a41bde53048bd8d199c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_f68b0221d6df98a00ce47398c7bc69a4b92d45b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_96a89404bbbfd069bb9e85734e0263eaf476fa63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\libs\GraphView-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3626a38455159707e355da96a61e598fbbc049e9">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\GraphView-4.2.1_7e80145c582c4a79d9991a0543b69aec914f2328.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fe066b67bac04cc4295fa535992921ecaae6b364">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_cdbb051fbf00dc6c94feeb290151f531d5db25b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ef1c3379f35ad8e9ab869808d3c8c47b4233e0d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LESTER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_40db5a53f983eea3f8fb4e2b3a6c90029da98f1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_81e3dc0f89e25ba0f6ae98c98e1aad64d3a78c81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bd6a885bb017208249f09cc98ba3331627d7fd22">
+        <dex dex="C:\xampp\htdocs\smartsocket\OrderingApplication\app\build\intermediates\pre-dexed\debug\instant-run_6f854144b23645627b93df22e13fdec2dc47e458.jar" />
+    </item>
+
+</items>

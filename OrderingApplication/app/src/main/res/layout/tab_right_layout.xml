@@ -1,13 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="New Products"
-        android:id="@+id/ordersTV"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-</RelativeLayout>
+        android:text="Plug 1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:text="Voltage: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Current: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Price:"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:text="Plug 2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Voltage: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Current: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Price:"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:text="Plug 3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Voltage: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Current: "
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="Price:"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+</ScrollView>

@@ -76,7 +76,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     {
         int id = item.getItemId();
 
-        if (id == R.id.action_cart)
+        /*if (id == R.id.action_cart)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Cart()).addToBackStack(null).commit();
             navigationView.setCheckedItem(R.id.nav_cart);
@@ -84,14 +84,14 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         else if(id == R.id.action_search)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Search_Meals()).addToBackStack(null).commit();
-        }
+        }*/
         return super.onOptionsItemSelected(item);
     }
 
     public boolean onNavigationItemSelected(MenuItem item)
     {
         int id = item.getItemId();
-        if (id == R.id.nav_meals)
+        /*if (id == R.id.nav_meals)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Meals()).addToBackStack(null).commit();
         }
@@ -106,8 +106,8 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         else if (id == R.id.nav_orderhistory)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new User_OrderHistory()).addToBackStack(null).commit();
-        }
-        else if (id == R.id.nav_logout)
+        }*/
+        if (id == R.id.nav_logout)
         {
             Toast.makeText(getApplicationContext(), "Logout", Toast.LENGTH_LONG).show();
             finish();
@@ -116,8 +116,12 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Welcome()).commit();
         }
-        drawer.closeDrawer(GravityCompat.START);
 
+        else if (id == R.id.nav_graph)
+    {
+        getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new Graph_Fragment()).commit();
+    }
+        drawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
